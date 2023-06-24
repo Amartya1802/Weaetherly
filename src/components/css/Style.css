@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+}
+
+.card {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 22rem;
+    max-width: 440px;
+    height: 320px;
+    background: #cae2e1;
+    padding: 2rem 0.5rem 8rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #727a80;
+}
+
+
+.inputData{
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn {
+    border-radius: 10%;
+    border-width: 0.5px;
+    margin-left: 1rem;
+    cursor: pointer;
+    background: none;
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+}
+
+.search-btn:hover {
+    background-color: rgb(178, 222, 222);
+    opacity: 0.7;
+}
+
+
+.location {
+    display: flex;
+    padding-left: 6px;
+    margin-top: 1rem;
+}
+
+.place_name {
+    z-index: 100;
+    padding-right: 4rem;
+}
+
+.icon {
+    justify-content: center;
+    padding-top: 1rem;
+    width: 2rem;
+    padding-right: -2rem;
+    color: rgb(101, 166, 241);
+    opacity: 38%;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+}
+
+.main_tmp{
+    margin-right: -5.8rem;
+    font-size: 3.5rem;
+    width: 15rem;
+    margin-top: -0.4rem;
+    padding-right: 0rem;
+    padding-left: 2.5rem;
+}
+
+.wh_icon {
+    /* padding-right: 0rem; */
+    width: 10rem;
+    z-index: 100;
+    /* padding-bottom: ; */
+    margin-top: -4.7rem;
+    margin-right: 1rem;
+}
+
+.wh_type {
+    padding-left: 3.5rem;
+    z-index: 50;
+    margin-top: -1.3rem;
+}
+
+.wind-humid {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.wind {
+    margin-right: 5.4rem;
+}
+
+
+.wind_icon {
+    width: 50px;
+}
+
+
+.humid_icon {
+    margin-top: 10px;
+    width: 45px;
+}
+
+.wind_det, .humid_det {
+    font-size: 13px;
+}
